@@ -1,0 +1,79 @@
+<header class="w-100">
+  <nav class="navbar w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/assets/contact-form-icon.svg" alt="Logo" width="90" />
+      </a>
+    </div>
+  </nav>
+</header>
+
+<main class="mt-5 d-flex justify-content-center flex-column align-items-center">
+  <section
+    class="d-flex justify-content-center align-items-center flex-column text-center"
+  >
+    <h1>Interested in our business pricing?</h1>
+    <h4>
+      Fill out the form to view details and we'll contact you as soon as
+      possible.
+    </h4>
+  </section>
+  <section class="">
+    <form class="row g-3 rounded-5" action="">
+      <div class="col-md-6">
+        <label for="inputName" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control rounded-4"
+          placeholder="Ethan Johnson"
+          id="inputName"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputCompanyName" class="form-label">Company Email</label>
+        <input
+          type="email"
+          class="form-control rounded-4"
+          placeholder="ethan@johnson.com"
+          id="inputCompanyName"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputCompanySize" class="form-label">Company Size</label>
+        <select
+          class="form-select rounded-4"
+          aria-label="Default select example"
+          id="inputCompanySize"
+        >
+          <option value="1">50-100 employees</option>
+          <option value="2">100-300 employees</option>
+          <option value="3">+300 employees</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label for="inputSubject" class="form-label">Subject</label>
+        <select
+          class="form-select rounded-4"
+          aria-label="Default select example"
+          id="inputSubject"
+        >
+          <option value="1">Building Landing Pages</option>
+          <option value="2">Job Offer</option>
+          <option value="3">Custom System Development</option>
+        </select>
+      </div>
+      <div class="col-md-12">
+        <label for="inputMessage" class="form-label">Message</label>
+        <textarea
+          class="form-control rounded-4"
+          id="inputMessage"
+          rows="7"
+          placeholder="50-100 employees"
+        ></textarea>
+      </div>
+      <div class="col-md-12">
+        <button class="btn btn-light col-12 rounded-4">Contact Sales</button>
+      </div>
+    </form>
+  </section>
+</main>
