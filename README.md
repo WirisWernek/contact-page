@@ -8,7 +8,7 @@
 
 O projeto é um dos desafios do Dev Challanges onde foi desenvolvida uma página de contato a partir de um template, como adição ao projeto ao invés de ser desenvolvido com apenas HTML, CSS e Javascript optei por incorporar o framework Angular e o Bootstrap.
 
-Atualmente o projeto se encontra publicado na [Vercel](https://dbc-wiriswernek.vercel.app), e usa como base o Angular com Typescript e Bootstrap 5.
+Atualmente o projeto se encontra publicado na [Vercel](https://contact-page-wiriswernek.vercel.app), e usa como base o Angular com Typescript e Bootstrap 5.
 
 ## 🔨 Como executar esta aplicação?
 
